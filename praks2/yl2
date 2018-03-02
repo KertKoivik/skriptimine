@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+# Minu saavutused
+#
+echo -n "Kert Kõivik
+" # väljasta ees ja perekonnanimi
+echo -n "IS117
+" # väljasta õppegrupi nimi
+echo -n "Tund tundub väga huvitav
+" # väljasta tunni kommentaar
+echo -n "Skriptimine on väga huvitav ja tahaks skriptimise kohta veel õppida.
+" # väljasta kommentaar
+#
+# skripti lõpp
