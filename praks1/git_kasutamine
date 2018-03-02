@@ -24,3 +24,14 @@ git remote add skriptimine https://github.com/kasutajanimi/reponimi.git
 
 B) git remote kontroll
 git remote -v
+
+Põhikasutamine
+
+A) pane fail jälgimisele
+git add failinimi
+
+B) lisa kirjeldus muudatuse kohta
+git commit -m "lühikirjeldus"
+
+C) lisa kaugrepositoorium
+git push -uf skriptimine master
