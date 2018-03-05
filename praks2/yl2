@@ -7,6 +7,6 @@
 who | cut -f1 -d " " | cut -f2 -d "." > perenimi # lõikame perenime - see on teine element peale punkti ja salvestame faili
 who | cut -f1 -d " " | cut -f1 -d "." > eesnimi # lõikame eesnime - see on esimene element enne punkti ja salvestame faili
 paste -d "." perenimi eesnimi > nimed # kleebime need failid vastavas järjekorras kokku
-cat nimed | sort | uniq # sorteerime väljundi ja võtame korduvad välja
+awk {print} nimed | sort # sorteerime väljundi ja võtame korduvad välja
 #
 # skripti lõpp
