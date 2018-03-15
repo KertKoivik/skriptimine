@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# ajaskript
+#
+# skripti algus
+#
+date +"Today is %A, %B %m, %Y" # väljastab tänase kuupäeva koos nädalapäeva nimetusega.
+date +"Time is %R" # väljastab kellaaja
+echo ""
+echo -n "Calendar of "
+cal # väljastab jooksva kuu kalendri
+#
+# skripti lõpp
