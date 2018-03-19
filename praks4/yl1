@@ -2,6 +2,6 @@
 #
 echo -n "Sisesta oma ees- ja perekonnanimi: " # väljastab teksti
 read eesnimi perenimi # küsib kasutaja käest eesnime ja perenime
-echo "Tere tulemast, $eesnimi $perenimi" # väljastab kasutaja sisestatud eesnime ja perenime koos tervitusega
+echo "Sinu eenimi on $eesnimi ja sinu perenimi on $perenimi" # väljastab kasutaja sisestatud eesnime ja perenime koos tekstiga
 #
 # skripti lõpp
