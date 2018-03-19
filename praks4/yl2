@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-echo -n "Sisesta aluskandiku pikkus ja laius: "
-read k_pikkus k_laius
- aluskandik=`expr $k_pikkus \* $k_laius`
+echo -n "Sisesta aluskandiku pikkus ja laius: " # väljastab teksti
+read k_pikkus k_laius # küsib kasutaja käest andmeid
+ aluskandik=`expr $k_pikkus \* $k_laius` # arvutab vastuse vastavalt valemile
 echo $aluskandik
 echo -n "Sisesta küpsise pikkus ja laius: "
 read ky_pikkus ky_laius
