@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+echo -n "Sisesta külje a väärtus: " # väljastab teksti
+read a # küsib kasutajalt väärtuse
+echo -n "Sisesta külje b väärtus: "
+read b
+#
+echo sqrt "($a * $a + $b * $b)" | bc -l
+echo "Kolmnurga hüpotenuus on $calc"
+#
+# skripti lõpp
