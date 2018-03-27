@@ -1,0 +1,18 @@
+#!/bin/bash
+#
+if test $# -ne 1;
+then
+	echo "Sisesta skripti käivitamisel täisarv."
+else
+	jaak=$(( $1 % 2 ))
+	#
+	# tingimus - kui jääk on null, on arv paaris
+	#
+	if test $jaak -eq 0
+	then
+	echo "Antud arv on paaris"
+	else
+	echo "Antud arv on paaritu"
+	fi
+fi
+# skripti lõpp
