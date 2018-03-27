@@ -1,0 +1,18 @@
+#!/bin/bash
+#
+echo -n "Sisesta grupi suurus: "
+	read suurus
+echo -n "Sisesta bussikohtade arv: "
+	read bussikohad
+t2is=`expr $suurus / $bussikohad`
+maha=`expr $suurus % $bussikohad`
+#
+if [ $maha -gt 0 ]
+then
+	bussid=$(( $t2is + 1 ))
+else
+	bussid=$t2is
+fi
+	echo -n "$bussid bussi on vaja.
+"
+#
