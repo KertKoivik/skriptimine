@@ -1,0 +1,23 @@
+#!/bin/bash
+#
+echo -n "Sisesta kuu number: "
+read kuu
+if test $kuu -gt 0 -a $kuu -lt 3
+then
+	echo "Talv"
+elif test $kuu -ge 3 -a $kuu -lt 6 
+then
+	echo "Kevad"
+elif test $kuu -ge 6 -a $kuu -lt 9
+then
+	echo "Suvi"
+elif test $kuu -ge 9 -a $kuu -lt 12
+then
+	echo "Sügis"
+elif test $kuu  -eq 12
+then
+	echo "Talv"
+else
+	echo "Vigane sisend"
+fi
+#
