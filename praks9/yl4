@@ -9,7 +9,7 @@ for((i=1;i<=n;i++))
 do
 	for((k=1;k<=n;k++))
 	do
-		echo -ne " ";
+		echo -ne "";
 	done
 	for((j=1;j<=i;j++))
 	do
